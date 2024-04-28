@@ -1,0 +1,31 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.236.129”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  SecKeyShm.cpp
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\SecKeyShm.cpp(7,25): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\SecKeyShm.cpp(13,30): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\SecKeyShm.cpp(87,6): warning : unused variable ‘ret’ [-Wunused-variable]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\SecKeyShm.cpp(87,6): warning :   int ret = 0;
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\SecKeyShm.cpp(87,6): warning :       ^~~
+  ServerOP.cpp
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(31,29): warning : conversion to ‘short unsigned int’ from ‘Json::Value::Int {aka int}’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(31,29): warning :   m_port = root["Port"].asInt();
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(31,29): warning :            ~~~~~~~~~~~~~~~~~~^~
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(168,12): warning : conversion to ‘unsigned int’ from ‘time_t {aka long int}’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(168,12): warning :   srand(time(NULL)); // 以当前时间为种子
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(168,12): warning :         ~~~~^~~~~~
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(170,14): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(177,33): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(177,33): warning :     retStr.append(1, rand() % 10 + '0');
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(177,33): warning :                      ~~~~~~~~~~~~^~~~~
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(180,33): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(180,33): warning :     retStr.append(1, rand() % 26 + 'a');
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(180,33): warning :                      ~~~~~~~~~~~~^~~~~
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(183,33): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(183,33): warning :     retStr.append(1, rand() % 26 + 'A');
+D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\ServerOP.cpp(183,33): warning :                      ~~~~~~~~~~~~^~~~~
+  正在链接对象
+  ServerSecKey.vcxproj -> D:\LearnProgram\C\VSProgram\ServerSecKey\ServerSecKey\bin\x64\Debug\ServerSecKey.out
